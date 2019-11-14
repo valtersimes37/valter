@@ -1,8 +1,14 @@
 {
 	"AWSEBDockerrunVersion": "1",
 	"Image": {
-		"Name":477575873490.dkr.ecr.us-east-1.amazonaws.com/test-dock-2",
+		"Name":"477575873490.dkr.ecr.us-east-1.amazonaws.com/test-dock-2",
 		"Update": "true"
 	},
 	"Ports": [
-	{
+      {
+        "ContainerPort": "5000",
+        "HostPort": "8080"
+      }
+    ]
+  }
+
